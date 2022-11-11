@@ -1,2 +1,1 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+Todos os códigos aqui nesse repositório não faz sentido. apenas para brincar com dart. 
