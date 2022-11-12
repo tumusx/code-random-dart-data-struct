@@ -1,5 +1,8 @@
 import 'package:test/test.dart';
 
+import '../../colab/Bicicletario.dart';
+import '../../estruturacao/array.dart';
+
 abstract class IProfessor {
   final String nomeProfessor;
   final MateriasDoProfessor materiasDoProfessor;
@@ -8,22 +11,25 @@ abstract class IProfessor {
   bool adicionarAluno(String aluno);
 }
 
+/*
+
 void main() {
-  Professor professorMurillo = Professor();
+  Professor professorMurillo = Professor('', MateriasDoProfessor.murilloProfessor);
   print(professorMurillo.adicionarAluno('Murillo'));
   print(professorMurillo.materiasDoProfessor.quantidadeAlunoMateria);
   print(professorMurillo.materiasDoProfessor.nomeMateria);
   print(professorMurillo.nomeProfessor);
 }
-
+*/
 mixin Escola {
-  var turmas = ['3C', '4C', '5C'];
+  final turmas = ['3C', '4C', '5C'];
 
   void cadastrarAlunoNaTurma(String turmaEscolhida) {}
 }
 
 class Professor extends IProfessor with Escola {
   Professor(super.nomeProfessor, super.materiasDoProfessor);
+
   @override
   void cadastrarAlunoNaTurma(String turmaEscolhida) {
     super.cadastrarAlunoNaTurma(turmaEscolhida);
