@@ -2,7 +2,7 @@ import 'dart:ffi';
 
 import 'package:code_random/code_random.dart' as code_random;
 
-void main(List<String> arguments) {
+/*void main(List<String> arguments) {
   print('Hello world: ${code_random.calculate()}!');
   var valorA = 10;
   var valorB = 40;
@@ -29,9 +29,9 @@ void main(List<String> arguments) {
   print(''.runtimeType);
 
   /// descobre a variavel em tempo de execucação
-  /**
+  *//**
    * especificacao do tipo de variavel
-   */
+   *//*
   const pi = 3.14;
 
   /// nao podemos alterar seu valor
@@ -47,4 +47,4 @@ void main(List<String> arguments) {
   variavelDinamica = "murillo";
   variavelDinamica = true;
   print(variavelDinamica);
-}
+}*/
