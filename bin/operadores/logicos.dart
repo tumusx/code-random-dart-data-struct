@@ -1,3 +1,4 @@
+/*
 void main() {
   var verdadeiro = !false;
   bool falso = false;
@@ -110,3 +111,4 @@ void decisaoSwitch() {
       print('invalido');
   }
 }
+*/
