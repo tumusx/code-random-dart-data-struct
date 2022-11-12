@@ -1,4 +1,4 @@
-void main() {
+void arrays() {
   List<String> nomesJogadores = <String>[];
   nomesJogadores.add("Pereira Jose");
   nomesJogadores.add("Jose");
@@ -14,7 +14,7 @@ void main() {
   print(nomesJogadores);
   print(nomesJogadores.indexOf("Pereira Jose"));
   print(nomes);
-  
+
   bool verdadeiro = !false;
   final arrayDinamico = ['texto', nomesJogadores, bool, 1, 2, 3];
   arrayDinamico[0] = nomesJogadores[0];
