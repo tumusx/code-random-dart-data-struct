@@ -8,6 +8,6 @@ import 'service/CepService.dart';
 
 main() async {
   CepServiceImpl cepService = CepServiceImpl(CepRepositoryImpl());
-  var seachedCep = cepService.seachedDetailsCep("74785390");
+  var seachedCep = cepService.seachedDetailsCep("7853900");
   seachedCep.then((value) => print(value));
 }

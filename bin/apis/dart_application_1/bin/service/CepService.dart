@@ -11,6 +11,8 @@ class CepServiceImpl implements ICepService {
     late Cep cep;
     await iCepRepository.getDetailCep(cepUser).then((detailCepValue) => cep = detailCepValue);
     if (cep != null) {
+      ///se tivessemos algum tratamento mais especificado,
+      ///ficaria aqui no service
       return Future.value(cep);
     }
     return Future.value(null);
